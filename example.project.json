@@ -1,0 +1,27 @@
+{
+  "name": "plasma-example",
+  "servePort": 34874,
+  "tree": {
+    "$className": "DataModel",
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "example/client"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$path": "example/server"
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Plasma": {
+        "$path": "src"
+      },
+      "Shared": {
+        "$path": "example/shared"
+      }
+    }
+  }
+}
